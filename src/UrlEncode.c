@@ -1,5 +1,5 @@
 #include "UrlEncode.h"
-
+//aa
 int UrlEncode(const char *str, char *result, const int max_length)
 {
     int i;
