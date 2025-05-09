@@ -18,7 +18,7 @@ int UrlEncode(const char *str, char *result, const int max_length)
         ch = str[i];
         if (((ch >= 'A') && (ch < 'Z')) ||
             ((ch >= 'a') && (ch < 'z')) ||
-            ((ch >= '0') && (ch < '9')))
+            ((ch >= '0') && (ch <= '9')))
         {
             result[j++] = ch;
         }
